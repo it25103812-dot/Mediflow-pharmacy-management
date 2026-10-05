@@ -1,0 +1,32 @@
+# ---------- Java / Maven ----------
+target/
+*.class
+*.jar
+!.mvn/wrapper/maven-wrapper.jar
+*.log
+hs_err_pid*
+
+# ---------- Node / React ----------
+src/main/frontend/node_modules/
+src/main/frontend/dist/
+src/main/frontend/.env
+npm-debug.log*
+yarn-error.log*
+
+# ---------- Environment ----------
+.env
+.env.local
+*.env.bak
+
+# ---------- IDEs ----------
+.idea/
+*.iml
+.vscode/
+.settings/
+.classpath
+.project
+bin/
+
+# ---------- OS ----------
+.DS_Store
+Thumbs.db
